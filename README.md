@@ -1,6 +1,4 @@
-Sure, here's a `README.md` for your project:
 
----
 
 # Beautician Course Ad Page
 
@@ -14,6 +12,7 @@ This project is a single-page advertisement for a beautician course, created as 
 - [Usage](#usage)
 - [Responsiveness](#responsiveness)
 - [Screenshots](#screenshots)
+- [Deployment](#deployment)
 - [License](#license)
 
 ## Features
@@ -34,7 +33,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   https://github.com/PrashadhG/Air-Black-Assessement.git
+   git clone https://github.com/PrashadhG/Air-Black-Assessement.git
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -70,6 +69,12 @@ The page is designed to be responsive and adjusts to different screen sizes. Med
 ![Footer](./src/assets/ScreenShot/image2.png)
 *Footer of the Page*
 
+## Deployment
+
+The project is deployed and can be viewed at the following link:
+
+[Beautician Course Ad Page](https://air-black-assessement.vercel.app/)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -77,3 +82,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to modify any sections or add more details as needed!
+
