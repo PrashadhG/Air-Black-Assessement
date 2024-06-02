@@ -61,13 +61,12 @@ The page is designed to be responsive and adjusts to different screen sizes. Med
 ## Screenshots
 
 ![Form Section](./src/assets/ScreenShot/image1.png)
-*The Form Section*
-
-![Certification Section](./src/assets/ScreenShot/image3.png)
-*Certificate Section*
-
 ![Footer](./src/assets/ScreenShot/image2.png)
-*Footer of the Page*
+![Mobile View](./src/assets/ScreenShot/image3.png)
+![Mobile View](./src/assets/ScreenShot/image4.png)
+
+
+
 
 ## Deployment
 
