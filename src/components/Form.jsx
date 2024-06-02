@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import icon from '../assets/certificate-logo.svg';
-import tick from '../assets/tick.svg';
-import star from '../assets/star.svg';
+import icon from '../assets/images/certificate-logo.svg';
+import tick from '../assets/images/tick.svg';
+import star from '../assets/images/star.svg';
 import '../styles/Form.css';
 
 const Form = () => {

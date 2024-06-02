@@ -1,8 +1,8 @@
 import React from 'react'
-import camera from '../assets/camera.svg'
-import heroStar from '../assets/hero-star.svg'
-import group from '../assets/group-icon.svg'
-import certificate from '../assets/certificate.png'
+import camera from '../assets/images/camera.svg'
+import heroStar from '../assets/images/hero-star.svg'
+import group from '../assets/images/group-icon.svg'
+import certificate from '../assets/images/certificate.png'
 import '../styles/Features.css'
 
 
