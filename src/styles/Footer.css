@@ -1,0 +1,161 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(82, 82, 82);
+  padding: 80px 90px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-title h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;  
+}
+
+.social-media-icons img {
+  width: 45px;
+  height: 45px;
+}
+
+.footer-background img {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background-color: #000000;
+  z-index: 0;
+}
+
+.footer-background img::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 1200px) {
+  .footer-container {
+    padding: 60px 70px;
+    gap: 30px;
+  }
+
+  .footer-title h1 {
+    font-size: 50px;
+  }
+
+  .social-media-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-background img {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media (max-width: 1094px) {
+  .footer-container {
+    padding: 60px 70px;
+    gap: 30px;
+  }
+
+  .footer-title h1 {
+    font-size: 40px;
+  }
+
+  .social-media-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-background img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-container {
+    padding: 40px 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-title h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+  }
+
+  .footer-background img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 30px 30px;
+  }
+
+  .footer-title h1 {
+    font-size: 35px;
+  }
+
+  .social-media-icons img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-background img {
+    width: 350px;
+    height: 175px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    padding: 20px 20px;
+  }
+
+  .footer-title h1 {
+    font-size: 30px;
+  }
+
+  .social-media-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-background img {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-title h1 {
+    font-size: 25px;
+  }
+
+  .social-media-icons img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer-background img {
+    display: none;
+  }
+}
